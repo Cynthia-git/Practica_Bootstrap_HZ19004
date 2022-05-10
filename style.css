@@ -1,0 +1,269 @@
+.card-img-top{
+    width: 100%;
+    height: 80px;
+}
+
+.titulo_uno{
+    text-align: center;
+}
+
+.card-titel-dos{
+    color: darkgrey;
+}
+
+.card-text{
+    padding-top: 13px;
+    color: darkgray;
+}
+
+.p-btn{
+    margin: 0;
+}
+
+.iconos{
+    padding-right:15px;
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.lista_1{
+    margin-top: 10px;
+    
+}
+.lista{
+    padding-left: 20px;
+}
+
+.enlace_final{
+    text-align: center;
+}
+
+.foto_boton{
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+}
+
+.div_text-center{
+    width: 69px;
+}
+
+.foto_dos{
+    border-radius: 10%;
+    width: 110px;
+    height:100px;
+    border: solid white 4px;
+    text-align: center;
+}
+
+.imagen_dos{
+    position: relative;
+    top: -40px;
+}
+
+.titulo_div{
+    position: relative;
+    top: -40px;
+}
+
+.p_gris{
+    color: rgb(132, 131, 131);
+}
+
+
+.img_columnas{
+  background-color: rgb(60, 217, 249);
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 6px;
+  height: 55px;
+  width: 55px;
+  border-radius: 100%;
+}
+
+.imagen_contenedor{
+    width: 45px;
+    height: auto;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.img_columnas_dos{
+    background-color: rgb(233, 155, 194);
+}
+
+.img_columnas_tres{
+    background-color: rgb(241, 234, 167);
+}
+
+.img_columnas_cuatro{
+    background-color: rgb(116, 116, 248);
+}
+.img_columnas_cinco{
+    background-color: rgb(180, 180, 180);
+}
+.boton_contenedor_dos{
+    background-color: rgb(196, 219, 244);
+}
+.boton_dos{
+    padding-top: 20px;
+}
+
+.centro_dos{
+    margin-top: 30px;
+}
+
+.imagenes_centro{
+    width: 120px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+.centro-foto_primera{
+    text-align: center;
+    padding-top: 50px;
+    background-color: aliceblue;
+    width: 130px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.imagen_contenedor_dos{
+    width: 40px;
+    height: auto;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 5px;
+}
+
+.img_gato{
+  background-color: rgb(60, 249, 192);
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.row_gato{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.centro_botones{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.centro_botones_dos{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.btn_centro{
+    font-size: small;
+    width: 80px;
+    height: auto;
+}
+
+.penultimo{
+    width: 135px;
+    height: auto;
+}
+
+.p-modal{
+    font-size:30px;
+    color: gainsboro;
+}
+
+.img-modal{
+    font-size: 50px;
+}
+
+.subir_imagen{
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.formulario{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.boton_cuatro{
+    position: relative;
+    left: -150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.botones_cuatro{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.btn-botones_cuatro{
+    border-radius: 100%;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.color-uno{
+    background-color: rgb(165, 248, 220);
+}
+.color-dos{
+    background-color:rgb(66, 186, 255);
+}
+.color-seis{
+    background-color:rgb(66, 186, 255);
+}
+.color-tres{
+    background-color: rgb(234, 138, 138);
+}
+.color-cuatro{
+    background-color: rgb(255, 255, 187);
+}
+.color-cinco{
+    background-color: rgb(208, 208, 208);
+}
+
+.final_puntos{
+    background-color: rgb(178, 176, 176);
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 25px;
+    
+}
+
+.tarea-tex{
+    width: 440px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.abajo{
+    margin-top: 5px;
+    font-size:25px;
+}
+
+.p-blanco{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f34aa8e99b.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary">
+    <div id="navbar" class="container-fluid" style="background-color: white;">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-2 d-grid gap-2">
+                            <button class="btn btn-primary"><i class="fa-solid fa-bullhorn"></i></button>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control bg-light" placeholder="Buscar" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Demo</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Home default</a></li>
+                                      <li><a class="dropdown-item" href="#">Home classic</a></li>
+                                      <li><a class="dropdown-item" href="#">Home post</a></li>
+                                      <li><a class="dropdown-item" href="#">Home video</a></li>
+                                      <li><a class="dropdown-item" href="#">Home event</a></li>
+                                      <li><a class="dropdown-item" href="#">Landing page</a></li>
+                                      <li><a class="dropdown-item" href="#">App download</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cloud-arrow-down"></i> Buy Social!</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Albums</a></li>
+                                    <li><a class="dropdown-item" href="#">Celebration</a></li>
+                                    <li><a class="dropdown-item" href="#">Messaging</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile     <i class="fa-solid fa-plus"></i></a></li>
+                                    <li><a class="dropdown-item" href="#">Events</a></li>
+                                    <li><a class="dropdown-item" href="#">Event 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Event details</a></li>
+                                    <li><a class="dropdown-item" href="#">Event details 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Groups</a></li>
+                                    <li><a class="dropdown-item" href="#">Group details</a></li>
+                                    <li><a class="dropdown-item" href="#">Post videos</a></li>
+                                    <li><a class="dropdown-item" href="#">Post video details</a></li>
+                                    <li><a class="dropdown-item" href="#">Post details</a></li>
+                                    <li><a class="dropdown-item" href="#">Video details</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog details</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown levels <i class="fa-solid fa-plus"></i></a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Account</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Create a page</a></li>
+                                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                                      <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                      <li><a class="dropdown-item" href="#">Help center</a></li>
+                                      <li><a class="dropdown-item" href="#">Help details</a></li>
+                                      <li><a class="dropdown-item" href="#">Authentication</a></li>
+                                      <li><a class="dropdown-item" href="#">Error 404</a></li>
+                                      <li><a class="dropdown-item" href="#">Offline</a></li>
+                                      <li><a class="dropdown-item" href="#">Privacy & terms</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">My Network</a>
+                                </li>
+                              </ul>
+                        </div>
+                        <!--Estos son los botones a la derecha, donde está la foto de perfil-->
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-message"></i></button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-gear"></i></button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-bell"></i></button></div>
+                                <div class="col-3 d-grip gap-2 text-center div_text-center">
+                                    <img src="foto.png" class="card-img foto_boton" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-3">
+                    <div class="card" style="height: 730px; width: 270px;">
+                        <div class="title titulo_uno">
+                            <div class="text-center imagen_paisaje">
+                                <img src="paisaje.jpg" class="card-img-top" alt="...">    <!--imagen-->
+                            </div>
+
+                            <div class="text-center imagen_dos">
+                                <img src="foto.png" class="card-img-top foto_dos" alt="...">    
+                            </div> 
+                            
+                            <div class="card-body titulo_div">
+                                <h4 class="card-title">Sam Lanson</h4>
+                                <h6 class="card-titel-dos">Web Developer at Webestica</h3>
+                                <p class="card-text">I'd love to change the world, but they won't give source code.</p>
+                            
+                            </div>
+
+                            <div class="numero_seguidores titulo_div">
+                                <div class="d-flex justify-content-around">
+                                    <p class="p-btn"><strong>256</strong></p>
+                                    <p class="p-btn"><strong>2.5K</strong></p>
+                                    <p class="p-btn"><strong>365</strong></p>
+                                </div>
+                            </div>
+                            <div class="letras">
+                                <div class="d-flex justify-content-around titulo_div">
+                                    <p class="p-btn-dos">Post</p>
+                                    <p class="p-btn-dos">Followers</p>
+                                    <p class="p-btn-dos">Following</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="listas titulo_div">
+                            <hr>
+                            <ul style="list-style: none;" class="lista">
+                                <li class="lista_1"><img class="iconos" src="hogar.png" alt=""> <a class="enlace"><strong>Feed</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="hombre.png " alt=""> <a class="enlace" =""><strong>Connections</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="mundo.png" alt=""> <a class="enlace"><strong>Latest News</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="calendario.png" alt=""> <a class="enlace"><strong>Events</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="chat.png" alt=""> <a class="enlace"><strong>Groups</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="campana.png" alt=""> <a class="enlace"><strong>Notifications</strong></a></li>
+                                <li class="lista_1"><img class="iconos" src="tuerca.png" alt=""> <a class="enlace"><strong>Settings</strong></a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="enlace_final titulo_div">
+                            <hr>
+                            <a style="text-decoration: none;" href="">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="col-6">
+
+                    <div class="card centro_uno bg-secondary border-0" style="height: 160px; width: 600px;">
+
+                        <div class="fotos_del_centro">
+                            <div class="d-flex justify-content-around">
+                                  <div class="centro-foto centro-foto_primera">
+                                    <i class="fa-solid fa-circle-plus centro-foto_primera_icono"></i>
+                                    <p>Post a Story</p>
+                                  </div>
+                                  <div class="centro-foto">
+                                    <img class="imagenes_centro" src="foto_una.jpg" alt="">
+                                    <p class="p-blanco">Lee Min Ho</p>
+                                  </div>
+                                  <div class="centro-foto">
+                                    <img class="imagenes_centro" src="foto_dos.webp" alt="">
+                                    <p class="p-blanco">Lee Jong-suk</p>
+                                  </div>
+                                  <div class="centro-foto">
+                                    <img class="imagenes_centro" src="foto_tres.webp" alt="">
+                                    <p class="p-blanco">Jung Joon-hyung</p>
+                                  </div> 
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="card centro_dos" style="height: 150px; width: 600px;">
+   
+                        <div class="row row_gato">
+                            <div class="col-sm-2 img_gato">
+                                <img class="imagen_contenedor_dos" src="gato.png" alt="">
+                            </div> 
+                            <div class="col-sm-10">
+                               <div class="p_gris">
+                                    <textarea class="tarea-tex" name="" placeholder="Share your thoughts..." ></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contenedor_centro_dos"></div>
+                        <div class="row">
+                            <div class="col-sm-2 centro_botones"> 
+                                <button type="button" class="btn btn-secondary btn_centro" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-image"></i> Photo
+                                </button>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add post photo</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-1"><p class="p-modal"><i class="fa-solid fa-circle-user"></i></div>
+                                                <div class="col-sm-10 p_gris abajo">
+                                                    <textarea class="tarea-tex" name="" placeholder="Share your thoughts..." ></textarea>
+                                                </div>
+                                            </div>
+                                            <p>Upload attachment</p>
+
+                                            <div class="subir_imagen">
+                                                <i class="fa-solid fa-images img-modal"></i>
+                                                <p>Drag here or click to upload photo.</p>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-outline-success">Post</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2 centro_botones_dos">
+                                <button type="button" class="btn btn-secondary btn_centro" data-bs-toggle="modal" data-bs-target="#exampleModal_dos">
+                                    <i class="fa-solid fa-video"></i> Video
+                                </button>
+
+                                <div class="modal fade" id="exampleModal_dos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add post video</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-1"><p class="p-modal"><i class="fa-solid fa-circle-user"></i></div>
+                                                <div class="col-sm-10 p_gris abajo">
+                                                    <textarea class="tarea-tex" name="" placeholder="Share your thoughts..." ></textarea>
+                                                </div>
+                                            </div>
+                                        <p>Upload attachment</p>
+
+                                        <div class="subir_imagen">
+                                            <i class="fa-solid fa-video img-modal"></i>
+                                            <p>Drag here or click to upload video.</p>
+                                        </div>
+                                        
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal"><i class="fa-solid fa-video"></i> Live video</button>
+                                        <button type="button" class="btn btn-outline-success">Post</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2 centro_botones_dos">
+                                <button type="button" class="btn btn-secondary btn_centro" data-bs-toggle="modal" data-bs-target="#exampleModal_tres">
+                                    <i class="fa-solid fa-calendar-day"></i> Event
+                                </button>
+
+                                <div class="modal fade" id="exampleModal_tres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Create event</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                         
+                                    <div class="formulario">
+                                          <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Title</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Event name here">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Description</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: topics, schedule, etc.">
+                                          </div>
+
+                                          <div class="d-flex justify-content-around">
+                                            <div class="mb-3">
+                                                <label for="formGroupExampleInput" class="form-label">Date</label>
+                                                <input type="date" name="" id="">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="formGroupExampleInput2" class="form-label">Time</label>
+                                                <input type="time" name="" id="">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="formGroupExampleInput2" class="form-label">Duration</label>
+                                                <input type="text" placeholder="1hr 23m">
+                                              </div>
+                                          </div>
+
+                                          <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Location</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Location, IN 46947">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Add guests</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Guest email">
+                                          </div>
+                                     </div>
+
+                                        <div class="modal-body">
+                                        <p class="p-modal"><i class="fa-solid fa-circle-user"></i>+50</p>
+                                        <p>Upload attachment</p>
+
+                                        <div class="subir_imagen">
+                                            <i class="fa-solid fa-file-lines img-modal"></i>
+                                            <p>Drop presentation and document tere or click to upload.</p>
+                                        </div>
+                                        
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-outline-success">Create now</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 centro_botones_dos">
+                                <button type="button" class="btn btn-secondary btn_centro penultimo" data-bs-toggle="modal" data-bs-target="#exampleModal_cuatro">
+                                    <i class="fa-solid fa-face-smile-beam"></i> Feeling/Activity
+                                </button>
+
+                                <div class="modal fade" id="exampleModal_cuatro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Create post</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-sm-1"><p class="p-modal"><i class="fa-solid fa-circle-user"></i></div>
+                                                <div class="col-sm-10 p_gris abajo">
+                                                    <textarea class="tarea-tex" name="" placeholder="Share your thoughts..." ></textarea>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    
+                                        <div class="botones_cuatro">
+                                            <dfn title="Photo"> <a class="btn btn-primary btn-botones_cuatro color-uno" href="#" role="button"><i class="fa-solid fa-image"></i></a></dfn>
+                                            <dfn title="Video"><button class="btn btn-primary btn-botones_cuatro color-dos" type="submit"><i class="fa-solid fa-video"></i></button></dfn>
+                                            <dfn title="Events"><button class="btn btn-primary btn-botones_cuatro color-tres" type="submit"><i class="fa-solid fa-calendar-days"></i></button></dfn>
+                                            <dfn title="Feeling/Activity"><button class="btn btn-primary btn-botones_cuatro color-cuatro" type="submit"><i class="fa-solid fa-face-smile"></i></button></dfn>
+                                            <dfn title="Check in"><button class="btn btn-primary btn-botones_cuatro color-cinco" type="submit"><i class="fa-solid fa-location-dot"></i></button></dfn>
+                                            <dfn title="Tag people on top"><button class="btn btn-primary btn-botones_cuatro color-seis" type="submit"><i class="fa-solid fa-tag"></i></button>  </dfn>                                
+                                        </div>
+                                        
+                                        <div class="modal-footer"> 
+                                            <div class="boton_cuatro" >
+
+                                            <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Customt</option>
+                                                    <option value="1">Friends</option>
+                                                    <option value="2">Only me</option>
+                                                    <option value="3">Public</option>
+                                            </select>
+                                            </div>
+                                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal"><i class="fa-solid fa-video"></i> Live video</button>
+                                        <button type="button" class="btn btn-outline-success">Post</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-2 centro_botones_dos ">
+                                <div class="boton_final final_puntos" >
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-envelope"></i> Create a poll</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-circle-question"></i> Ask a question</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-pen"></i> Help</a></li>
+                                    </ul> 
+                                </div>
+                                
+                               <!-- <button type="button" class="btn btn-secondary btn_centro ultimo" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </button>-->
+                            </div>
+
+
+
+                        </div>
+                    
+                    </div>
+                
+                </div>
+
+                <div class="col-3">
+                    <div class="card" style="height: 465px;">
+                        <div class="title">
+                            <div class="card-body">
+                                <h5 class="card-title">Who to follow</h5>
+                            </div>
+
+                            <div class="container">
+                                
+                                <div class="row">
+                                  <div class="col-sm-2 img_columnas">
+                                    <img class="imagen_contenedor" src="hombre_uno.png" alt="">
+                                  </div>  
+                                  <div class="col-sm-7">
+                                    <a class="enlace" href=""><strong>Judy Nguyen</strong></a>
+                                    <p class="p_gris">News anchor</p>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                  </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2 img_columnas img_columnas_dos">
+                                        <img class="imagen_contenedor" src="mujer_dos.png" alt="">
+                                      </div> 
+                                    <div class="col-sm-7">
+                                      <a class="enlace" href=""><strong>Amanda Reed</strong></a>
+                                      <p class="p_gris">Web Developer</p>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2 img_columnas img_columnas_tres">
+                                        <img class="imagen_contenedor" src="mujer_uno.png" alt="">
+                                      </div> 
+                                    <div class="col-sm-7">
+                                      <a class="enlace" href=""><strong>Billy Vasquez</strong></a>
+                                      <p class="p_gris">News anchor</p>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2 img_columnas img_columnas_cuatro">
+                                        <img class="imagen_contenedor" src="hombre-dos.png" alt="">
+                                      </div> 
+                                    <div class="col-sm-7">
+                                      <a class="enlace" href=""><strong>Lori Fergusonz</strong></a>
+                                      <p class="p_gris">Web Developer</p>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2 img_columnas img_columnas_cinco">
+                                        <img class="imagen_contenedor" src="person_cinco.png" alt="">
+                                      </div> 
+                                    <div class="col-sm-7">
+                                      <a class="enlace" href=""><strong>Carolyn Ortiz</strong></a>
+                                      <p class="p_gris">New anchor</p>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <i class="fa-solid fa-circle-plus"></i>
+                                    </div>
+                                </div>
+
+                                <div class="row boton_dos">
+                                    <button type="button" class="btn btn-outline-primary boton_contenedor_dos">View more</button>
+                                </div>
+
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
